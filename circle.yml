@@ -20,4 +20,4 @@ deployment:
     branch: master
     commands:
       - ./gradlew createBundle
-      - eb deploy --staged
+      - eb deploy --staged --profile default
