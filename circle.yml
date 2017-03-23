@@ -20,4 +20,4 @@ deployment:
     branch: master
     commands:
       - ./gradlew createBundle
-      - eb deploy kamipedia-sample-dev
+      - eb deploy --staged
