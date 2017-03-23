@@ -1,0 +1,17 @@
+machine:
+  java:
+    version: openjdk8
+  environment:
+    JAVA_OPTS: -Xms512m -Xmx512m
+  timezone: Asia/Tokyo
+
+general:
+  branches:
+    only:
+      - master
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./gradlew createBundle
+      - eb deploy kamipedia-sample-dev

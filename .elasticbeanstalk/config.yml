@@ -1,0 +1,19 @@
+branch-defaults:
+  master:
+    environment: kamipedia-sample-dev
+    group_suffix: null
+deploy:
+  artifact: build/distributions/kamipedia-api.zip
+global:
+  application_name: kamipedia-sample
+  branch: null
+  default_ec2_keyname: mac-aratana
+  default_platform: Java 8
+  default_region: ap-northeast-1
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: null
+  workspace_type: Application

@@ -1,0 +1,1 @@
+web: java -jar kamipedia-api-0.1.0.jar --spring.datasource.initialize=false

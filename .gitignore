@@ -9,8 +9,17 @@
 # For astah
 *.lock
 
+# For Python
+.python-version
+
 # For local
 temp
 
 # For mac
 .DS_Store
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/config.yml
+!.elasticbeanstalk/*.global.yml
