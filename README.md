@@ -12,7 +12,7 @@
 - AWS ElasticBeanstalk 
 - [Swagger](http://kamipedia-sample-dev.ap-northeast-1.elasticbeanstalk.com:8080/swagger-ui.html#!) ( ( API ドキュメント ) )
 
-![project](./project.png "プロジェクト管理")
+![project](./project.png "プロジェクト管理の説明図")
 
 ## 運用ルール
 1. GitのcommitコメントにpivotalのストーリーIDを含める
