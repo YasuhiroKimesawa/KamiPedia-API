@@ -12,6 +12,8 @@
 - AWS ElasticBeanstalk 
 - [Swagger](http://kamipedia-sample-dev.ap-northeast-1.elasticbeanstalk.com:8080/swagger-ui.html#!) ( ( API ドキュメント ) )
 
+![project](./project.png "プロジェクト管理")
+
 ## 運用ルール
 1. GitのcommitコメントにpivotalのストーリーIDを含める
 `[#12345677 #12345678] Diverting power from warp drive to torpedoes.`
