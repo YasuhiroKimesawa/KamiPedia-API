@@ -4,20 +4,14 @@
 
 [![CircleCI](https://circleci.com/gh/YasuhiroKimesawa/KamiPedia-API.svg?style=svg)](https://circleci.com/gh/YasuhiroKimesawa/KamiPedia-API)
 
-## 必要なアカウント
-- GitHub
-- Slack ( 情報集約 )
-- [Pivotal Tracker]( https://www.pivotaltracker.com/n/projects/1989469  ) ( プロジェクト管理 ) 
-- CircleCI ( CI環境 )
-- AWS ElasticBeanstalk 
-- [Swagger](http://kamipedia-sample-dev.ap-northeast-1.elasticbeanstalk.com:8080/swagger-ui.html#!) ( ( API ドキュメント ) )
+# 詳細は アプリのGithubを参照して下さい
+https://github.com/YasuhiroKimesawa/KamiPedia-App
 
-![project](./project.png "プロジェクト管理の説明図")
+## 必要なアカウント(APIのみで必要なもの)
+- AWS
 
-## 運用ルール
-1. GitのcommitコメントにpivotalのストーリーIDを含める
-`[#12345677 #12345678] Diverting power from warp drive to torpedoes.`
-2. 必ずmasterからブランチを切って、PullRequestを投げる ( できるだけレビューを受ける )
+## API仕様書
+http://kamipedia-sample-dev.ap-northeast-1.elasticbeanstalk.com:8080/swagger-ui.html#!
 
 ## 受入テスト(RobotFramework)
 
